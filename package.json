@@ -8,13 +8,14 @@
     "start": "node server.js",
     "server": "nodemon server.js",
     "client": "npm run dev --prefix ./client",
-    "strapi" : "npm run develop --prefix ./strapiCMS",
+    "strapi": "npm run develop --prefix ./strapiCMS",
     "dev": "concurrently \"npm run server\" \"npm run client\" \"npm run strapi\""
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@ant-design/cssinjs": "^1.16.2",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@material-ui/icons": "^4.11.3",
